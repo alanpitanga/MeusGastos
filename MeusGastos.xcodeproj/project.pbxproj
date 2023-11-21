@@ -16,6 +16,7 @@
 		0E8EDDE02B0529E00059B3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDDDE2B0529E00059B3C9 /* LaunchScreen.storyboard */; };
 		0E8EDDEB2B0529E00059B3C9 /* MeusGastosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDEA2B0529E00059B3C9 /* MeusGastosTests.swift */; };
 		0E8EDDF62B0529E00059B3C9 /* MeusGastosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */; };
+		0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD8A882B0D4E2900B1038E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0E8EDDF12B0529E00059B3C9 /* MeusGastosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeusGastosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusGastosUITests.swift; sourceTree = "<group>"; };
 		0E8EDDF72B0529E00059B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAD8A882B0D4E2900B1038E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				0E4728192B05923800240361 /* LoginViewController.swift */,
+				0EAD8A882B0D4E2900B1038E /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */,
 				0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */,
 				0E8EDDD62B0529DE0059B3C9 /* SceneDelegate.swift in Sources */,
 				0E4728172B058D9800240361 /* LoginCoordinator.swift in Sources */,
