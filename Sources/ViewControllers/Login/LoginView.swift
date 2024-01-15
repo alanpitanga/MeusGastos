@@ -10,22 +10,9 @@ import UIKit
 final class LoginView: UIView {
     
     //Mark: elemnts visuals
-    let titleLabel: UILabel = {
-        let lb = UILabel()
-        lb.text = "Login"
-        lb.font = UIFont.systemFont(ofSize: 25, weight: .semibold)
-        lb.translatesAutoresizingMaskIntoConstraints = false
-
-        return lb
-    }()
+    let titleLabel = LabelDefault(text: "Login")
     
-    let emailLabel: UILabel = {
-        let lb = UILabel()
-        lb.text = "Email"
-        lb.translatesAutoresizingMaskIntoConstraints = false
-
-        return lb
-    }()
+    let emailLabel = LabelDefault(text: "E-mail")
     
     let emailTextField: UITextField = {
         let tf = UITextField()
@@ -38,13 +25,7 @@ final class LoginView: UIView {
         return tf
     }()
     
-    let passwordLabel: UILabel = {
-        let lb = UILabel()
-        lb.text = "Senha"
-        lb.translatesAutoresizingMaskIntoConstraints = false
-        
-        return lb
-    }()
+    let passwordLabel = LabelDefault(text: "Senha")
     
     let passwordTextField: UITextField = {
         let tf = UITextField()
