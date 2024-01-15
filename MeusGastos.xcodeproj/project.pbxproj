@@ -12,13 +12,13 @@
 		0E47281A2B05923800240361 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4728192B05923800240361 /* LoginViewController.swift */; };
 		0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDD32B0529DE0059B3C9 /* AppDelegate.swift */; };
 		0E8EDDD62B0529DE0059B3C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDD52B0529DE0059B3C9 /* SceneDelegate.swift */; };
-		0E8EDDDD2B0529E00059B3C9 /* launchscreen in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDDDC2B0529E00059B3C9 /* launchscreen */; };
-		0E8EDDE02B0529E00059B3C9 /* launchscreen in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDDDE2B0529E00059B3C9 /* launchscreen */; };
+		0E8EDDDD2B0529E00059B3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDDDC2B0529E00059B3C9 /* Assets.xcassets */; };
+		0E8EDDE02B0529E00059B3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8EDDDE2B0529E00059B3C9 /* LaunchScreen.storyboard */; };
 		0E8EDDEB2B0529E00059B3C9 /* MeusGastosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDEA2B0529E00059B3C9 /* MeusGastosTests.swift */; };
 		0E8EDDF62B0529E00059B3C9 /* MeusGastosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */; };
 		0EA1AC042B55E31100812FC6 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC032B55E31100812FC6 /* LabelDefault.swift */; };
-		0EA1AC062B55E9A800812FC6 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC052B55E9A800812FC6 /* TextFieldDefault.swift */; };
-		0EA1AC082B55EE1200812FC6 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC072B55EE1200812FC6 /* ButtonDefault.swift */; };
+		0EA1AC0C2B55FA2900812FC6 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */; };
+		0EA1AC0E2B55FA4B00812FC6 /* TextFiledDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */; };
 		0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD8A882B0D4E2900B1038E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 		0E8EDDD02B0529DE0059B3C9 /* MeusGastos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeusGastos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8EDDD32B0529DE0059B3C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8EDDD52B0529DE0059B3C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E8EDDDC2B0529E00059B3C9 /* launchscreen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = launchscreen; sourceTree = "<group>"; };
-		0E8EDDDF2B0529E00059B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/launchscreen; sourceTree = "<group>"; };
+		0E8EDDDC2B0529E00059B3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E8EDDDF2B0529E00059B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E8EDDE12B0529E00059B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E8EDDE62B0529E00059B3C9 /* MeusGastosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeusGastosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8EDDEA2B0529E00059B3C9 /* MeusGastosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusGastosTests.swift; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusGastosUITests.swift; sourceTree = "<group>"; };
 		0E8EDDF72B0529E00059B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA1AC032B55E31100812FC6 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
-		0EA1AC052B55E9A800812FC6 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
-		0EA1AC072B55EE1200812FC6 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledDefault.swift; sourceTree = "<group>"; };
 		0EAD8A882B0D4E2900B1038E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,8 +148,8 @@
 			children = (
 				0E8EDDD32B0529DE0059B3C9 /* AppDelegate.swift */,
 				0E8EDDD52B0529DE0059B3C9 /* SceneDelegate.swift */,
-				0E8EDDDC2B0529E00059B3C9 /* launchscreen */,
-				0E8EDDDE2B0529E00059B3C9 /* launchscreen */,
+				0E8EDDDC2B0529E00059B3C9 /* Assets.xcassets */,
+				0E8EDDDE2B0529E00059B3C9 /* LaunchScreen.storyboard */,
 				0E8EDDE12B0529E00059B3C9 /* Info.plist */,
 			);
 			path = MeusGastos;
@@ -185,8 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				0EA1AC032B55E31100812FC6 /* LabelDefault.swift */,
-				0EA1AC052B55E9A800812FC6 /* TextFieldDefault.swift */,
-				0EA1AC072B55EE1200812FC6 /* ButtonDefault.swift */,
+				0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */,
+				0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -294,8 +294,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8EDDE02B0529E00059B3C9 /* launchscreen in Resources */,
-				0E8EDDDD2B0529E00059B3C9 /* launchscreen in Resources */,
+				0E8EDDE02B0529E00059B3C9 /* LaunchScreen.storyboard in Resources */,
+				0E8EDDDD2B0529E00059B3C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */,
-				0EA1AC082B55EE1200812FC6 /* ButtonDefault.swift in Sources */,
 				0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */,
+				0EA1AC0E2B55FA4B00812FC6 /* TextFiledDefault.swift in Sources */,
 				0E8EDDD62B0529DE0059B3C9 /* SceneDelegate.swift in Sources */,
 				0E4728172B058D9800240361 /* LoginCoordinator.swift in Sources */,
 				0E47281A2B05923800240361 /* LoginViewController.swift in Sources */,
 				0EA1AC042B55E31100812FC6 /* LabelDefault.swift in Sources */,
 				0E4728152B058CB600240361 /* Coordinator.swift in Sources */,
-				0EA1AC062B55E9A800812FC6 /* TextFieldDefault.swift in Sources */,
+				0EA1AC0C2B55FA2900812FC6 /* ButtonDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +364,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0E8EDDDE2B0529E00059B3C9 /* launchscreen */ = {
+		0E8EDDDE2B0529E00059B3C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0E8EDDDF2B0529E00059B3C9 /* Base */,
 			);
-			name = launchscreen;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanpitanga.MeusGastos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -523,7 +523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanpitanga.MeusGastos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
