@@ -14,6 +14,7 @@ final class LoginCoordinator: Coordinator {
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
+    
     func start() {
         let viewController = LoginViewController()
         

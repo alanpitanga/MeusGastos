@@ -67,6 +67,16 @@ final class LoginView: UIView {
         return bt
     }()
     
+    let buttonRegister: UIButton = {
+        let bt = UIButton()
+        bt.translatesAutoresizingMaskIntoConstraints = false
+        bt.setTitle("Registrar", for: .normal)
+        bt.backgroundColor = .blue
+        bt.layer.cornerRadius = 15
+        
+        return bt
+    }()
+    
     //Mark: Inits
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -83,6 +93,7 @@ final class LoginView: UIView {
         setEmail()
         setPassword()
         setButtonLogin()
+        setButtonRegister()
     }
     
     private func setLogin() {
@@ -135,6 +146,17 @@ final class LoginView: UIView {
             buttonLogin.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
             buttonLogin.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
             buttonLogin.heightAnchor.constraint(equalToConstant: 40)
+        ])
+    }
+    
+    private func setButtonRegister() {
+        self.addSubview(buttonRegister)
+        
+        NSLayoutConstraint.activate([
+            buttonRegister.topAnchor.constraint(equalTo: buttonLogin.bottomAnchor, constant: 30),
+            buttonRegister.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
+            buttonRegister.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
+            buttonRegister.heightAnchor.constraint(equalToConstant: 40)
         ])
     }
 }
