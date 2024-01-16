@@ -14,11 +14,11 @@ final class LoginView: UIView {
     
     let emailLabel = LabelDefault(text: "E-mail")
     
-    let emailTextField = TextFieldDefault(placeHolder: " Informe seu E-mail")
+    let emailTextField = TextFieldDefault(placeHolder: "Informe seu E-mail", keyboardType: .emailAddress)
     
     let passwordLabel = LabelDefault(text: "Senha")
     
-    let passwordTextField = TextFieldDefault(placeHolder: " Digite sua senha")
+    let passwordTextField = TextFieldDefault(placeHolder: "Digite sua senha", isSecureTextEntry: true)
     
     let buttonLogin = ButtonDefault(title: "Entrar")
     
