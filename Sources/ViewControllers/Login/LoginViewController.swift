@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-final class LoginViewController: UIViewController {
+final class LoginViewController: ViewControllerDefault {
     
     lazy var loginView: LoginView = {
         let view = LoginView()

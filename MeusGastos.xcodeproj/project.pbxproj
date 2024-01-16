@@ -17,6 +17,9 @@
 		0E8EDDEB2B0529E00059B3C9 /* MeusGastosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDEA2B0529E00059B3C9 /* MeusGastosTests.swift */; };
 		0E8EDDF62B0529E00059B3C9 /* MeusGastosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */; };
 		0E901DBD2B572917000B6A04 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901DBC2B572917000B6A04 /* ViewControllerDefault.swift */; };
+		0E901DBF2B573A8D000B6A04 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901DBE2B573A8D000B6A04 /* RegisterCoordinator.swift */; };
+		0E901DC22B573BBA000B6A04 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901DC12B573BBA000B6A04 /* RegisterViewController.swift */; };
+		0E901DC42B573C4D000B6A04 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901DC32B573C4D000B6A04 /* RegisterView.swift */; };
 		0EA1AC042B55E31100812FC6 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC032B55E31100812FC6 /* LabelDefault.swift */; };
 		0EA1AC0C2B55FA2900812FC6 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */; };
 		0EA1AC0E2B55FA4B00812FC6 /* TextFiledDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */; };
@@ -57,6 +60,9 @@
 		0E8EDDF52B0529E00059B3C9 /* MeusGastosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusGastosUITests.swift; sourceTree = "<group>"; };
 		0E8EDDF72B0529E00059B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E901DBC2B572917000B6A04 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
+		0E901DBE2B573A8D000B6A04 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
+		0E901DC12B573BBA000B6A04 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0E901DC32B573C4D000B6A04 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		0EA1AC032B55E31100812FC6 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
 		0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledDefault.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 			children = (
 				0E4728142B058CB600240361 /* Coordinator.swift */,
 				0E4728162B058D9800240361 /* LoginCoordinator.swift */,
+				0E901DBE2B573A8D000B6A04 /* RegisterCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -111,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0E4728182B05902700240361 /* Login */,
+				0E901DC02B573B97000B6A04 /* Register */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +181,15 @@
 				0E8EDDF72B0529E00059B3C9 /* Info.plist */,
 			);
 			path = MeusGastosUITests;
+			sourceTree = "<group>";
+		};
+		0E901DC02B573B97000B6A04 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				0E901DC12B573BBA000B6A04 /* RegisterViewController.swift */,
+				0E901DC32B573C4D000B6A04 /* RegisterView.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		0EA1AC012B55E26400812FC6 /* Infrastructure */ = {
@@ -325,6 +342,9 @@
 			files = (
 				0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */,
 				0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */,
+				0E901DC42B573C4D000B6A04 /* RegisterView.swift in Sources */,
+				0E901DBF2B573A8D000B6A04 /* RegisterCoordinator.swift in Sources */,
+				0E901DC22B573BBA000B6A04 /* RegisterViewController.swift in Sources */,
 				0E901DBD2B572917000B6A04 /* ViewControllerDefault.swift in Sources */,
 				0EA1AC0E2B55FA4B00812FC6 /* TextFiledDefault.swift in Sources */,
 				0E8EDDD62B0529DE0059B3C9 /* SceneDelegate.swift in Sources */,
