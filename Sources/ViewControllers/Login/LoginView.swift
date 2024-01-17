@@ -8,6 +8,7 @@
 import UIKit
 
 final class LoginView: UIView {
+    var onRegisterTap: (() -> Void)?
     
     //Mark: elemnts visuals
     let titleLabel = LabelDefault(text: "Login", font: UIFont.systemFont(ofSize: 25, weight: .semibold))
@@ -99,11 +100,17 @@ final class LoginView: UIView {
     private func setButtonRegister() {
         self.addSubview(buttonRegister)
         
+        buttonRegister.addTarget(self, action: #selector(buttonRegisterTap), for: .touchUpInside)
+        
         NSLayoutConstraint.activate([
             buttonRegister.topAnchor.constraint(equalTo: buttonLogin.bottomAnchor, constant: 30),
             buttonRegister.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
             buttonRegister.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
             buttonRegister.heightAnchor.constraint(equalToConstant: 40)
         ])
+    }
+    
+    @objc func buttonRegisterTap() {
+        onRegisterTap?()
     }
 }
