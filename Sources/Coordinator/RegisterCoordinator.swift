@@ -16,6 +16,13 @@ final class RegisterCoordinator: Coordinator {
     
     func start() {
         let viewController = RegisterViewController()
+        viewController.onLoginTap = {
+            self.goToLogin()
+        }
         self.navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    private func goToLogin() {
+        self.navigationController.popToRootViewController(animated: true)
     }
 }
