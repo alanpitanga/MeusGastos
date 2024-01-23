@@ -9,6 +9,7 @@ import UIKit
 
 final class LoginView: UIView {
     var onRegisterTap: (() -> Void)?
+    var onLoginTap: (() -> Void)?
     
     //Mark: elemnts visuals
     let titleLabel = LabelDefault(text: "Login", font: UIFont.systemFont(ofSize: 25, weight: .semibold))
@@ -89,6 +90,8 @@ final class LoginView: UIView {
     private func setButtonLogin() {
         self.addSubview(buttonLogin)
         
+        buttonLogin.addTarget(self, action: #selector(buttonLoginTap), for: .touchUpInside)
+        
         NSLayoutConstraint.activate([
             buttonLogin.topAnchor.constraint(equalTo: passwordTextField.bottomAnchor, constant: 30),
             buttonLogin.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
@@ -112,5 +115,9 @@ final class LoginView: UIView {
     
     @objc func buttonRegisterTap() {
         onRegisterTap?()
+    }
+    
+    @objc func buttonLoginTap() {
+        onLoginTap?()
     }
 }
