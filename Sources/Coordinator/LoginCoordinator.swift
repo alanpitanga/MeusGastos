@@ -35,7 +35,7 @@ final class LoginCoordinator: Coordinator {
     }
     
     private func goToHome() {
-        let coordinator = LoginCoordinator(navigationController: self.navigationController)
+        let coordinator = HomeCoordinator(navigationController: self.navigationController)
         coordinator.start()
     }
 
