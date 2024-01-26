@@ -20,17 +20,15 @@ final class HomeView: UIView {
         return segment
     }()
     
-    lazy var viewInputs: UIView = {
-        let view = UIView()
+    lazy var viewInputs: ViewInputOutputDefault = {
+        let view = ViewInputOutputDefault(typeEntry: .Input)
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .red
         return view
     }()
     
-    lazy var viewOutputs: UIView = {
-        let view = UIView()
+    lazy var viewOutputs: ViewInputOutputDefault = {
+        let view = ViewInputOutputDefault(typeEntry: .Output)
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .green
         return view
     }()
     
@@ -44,9 +42,15 @@ final class HomeView: UIView {
     }
     
     private func setElementVisual() {
+        setValue()
         setSegmented()
         setViewInputs()
         setViewOutputs()
+    }
+    
+    private func setValue() {
+        self.viewInputs.setValue(value: 2450)
+        self.viewOutputs.setValue(value: 4000)
     }
     
     private func setSegmented() {
@@ -61,6 +65,7 @@ final class HomeView: UIView {
     
     private func setViewInputs() {
         self.addSubview(viewInputs)
+        viewInputs.layer.cornerRadius = 10
         
         NSLayoutConstraint.activate([
             viewInputs.topAnchor.constraint(equalTo: segmentedControl.bottomAnchor, constant: 16),
@@ -72,6 +77,7 @@ final class HomeView: UIView {
     
     private func setViewOutputs() {
         self.addSubview(viewOutputs)
+        viewOutputs.layer.cornerRadius = 10
         
         NSLayoutConstraint.activate([
             viewOutputs.topAnchor.constraint(equalTo: segmentedControl.bottomAnchor, constant: 16),

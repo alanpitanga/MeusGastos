@@ -10,6 +10,8 @@
 		0E4728152B058CB600240361 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4728142B058CB600240361 /* Coordinator.swift */; };
 		0E4728172B058D9800240361 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4728162B058D9800240361 /* LoginCoordinator.swift */; };
 		0E47281A2B05923800240361 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4728192B05923800240361 /* LoginViewController.swift */; };
+		0E7F152B2B62FCBD00365A39 /* ViewInputOutputDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F152A2B62FCBD00365A39 /* ViewInputOutputDefault.swift */; };
+		0E7F152E2B631B0C00365A39 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F152D2B631B0C00365A39 /* Color+.swift */; };
 		0E8751BF2B607D7D001CDE6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8751BE2B607D7D001CDE6D /* HomeViewController.swift */; };
 		0E8751C12B607D8A001CDE6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8751C02B607D8A001CDE6D /* HomeView.swift */; };
 		0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EDDD32B0529DE0059B3C9 /* AppDelegate.swift */; };
@@ -50,6 +52,8 @@
 		0E4728142B058CB600240361 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0E4728162B058D9800240361 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		0E4728192B05923800240361 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0E7F152A2B62FCBD00365A39 /* ViewInputOutputDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInputOutputDefault.swift; sourceTree = "<group>"; };
+		0E7F152D2B631B0C00365A39 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		0E8751BE2B607D7D001CDE6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0E8751C02B607D8A001CDE6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0E8EDDD02B0529DE0059B3C9 /* MeusGastos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeusGastos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +144,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		0E7F152C2B631AED00365A39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F152D2B631B0C00365A39 /* Color+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0E8751BD2B607D5A001CDE6D /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +224,7 @@
 		0EA1AC012B55E26400812FC6 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				0E7F152C2B631AED00365A39 /* Extensions */,
 				0EA1AC022B55E2E300812FC6 /* Components */,
 			);
 			path = Infrastructure;
@@ -224,6 +237,7 @@
 				0EA1AC0B2B55FA2900812FC6 /* ButtonDefault.swift */,
 				0EA1AC0D2B55FA4B00812FC6 /* TextFiledDefault.swift */,
 				0E901DBC2B572917000B6A04 /* ViewControllerDefault.swift */,
+				0E7F152A2B62FCBD00365A39 /* ViewInputOutputDefault.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -358,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAD8A892B0D4E2900B1038E /* LoginView.swift in Sources */,
+				0E7F152E2B631B0C00365A39 /* Color+.swift in Sources */,
 				0E8EDDD42B0529DE0059B3C9 /* AppDelegate.swift in Sources */,
 				0E901DC42B573C4D000B6A04 /* RegisterView.swift in Sources */,
 				0E901DBF2B573A8D000B6A04 /* RegisterCoordinator.swift in Sources */,
@@ -365,6 +380,7 @@
 				0E8751BF2B607D7D001CDE6D /* HomeViewController.swift in Sources */,
 				0EFE1BDD2B607ACA000D3C20 /* HomeCoordinator.swift in Sources */,
 				0E901DBD2B572917000B6A04 /* ViewControllerDefault.swift in Sources */,
+				0E7F152B2B62FCBD00365A39 /* ViewInputOutputDefault.swift in Sources */,
 				0EA1AC0E2B55FA4B00812FC6 /* TextFiledDefault.swift in Sources */,
 				0E8EDDD62B0529DE0059B3C9 /* SceneDelegate.swift in Sources */,
 				0E4728172B058D9800240361 /* LoginCoordinator.swift in Sources */,
